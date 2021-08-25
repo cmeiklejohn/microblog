@@ -9,7 +9,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v2.2.2
         with:
-          python-version: '3.7.4'
+          python-version: '3.x'
           architecture: 'x64'
       - name: Checkout PyTorch
         uses: actions/checkout@master
